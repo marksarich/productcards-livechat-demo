@@ -5,7 +5,7 @@ import './index.css';
 
 export default (props) => {
 
-	//console.log('props', props);
+	console.log('props', props);
 	//console.log("constructor");
 
 	const [activeItemIndex, setActiveItemIndex] = useState(0);
