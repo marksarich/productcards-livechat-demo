@@ -1,0 +1,12 @@
+{
+  "displayName": "Jump Start",
+  "components": [
+    {
+      "name": "Carousel",
+      "manifest": "./src/components/Carousel/manifest.json"
+    }
+  ],
+  "author": "",
+  "description": "",
+  "logo": "./example-logo.png"
+}

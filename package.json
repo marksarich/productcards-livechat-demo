@@ -1,0 +1,26 @@
+{
+  "name": "jump-start",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.54",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "react-items-carousel": "^2.8.0",
+    "react-star-rating-component": "^1.4.1"
+  }
+}

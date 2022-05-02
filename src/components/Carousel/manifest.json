@@ -1,0 +1,64 @@
+{
+  "displayName": "Carousel",
+  "defaultWidth": 200,
+  "defaultHeight": 200,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "listProp",
+      "displayName": "What is this a list of?",
+      "type": "list"
+    },
+    {
+      "name": "listCardTitle",
+      "displayName": "What should the Card Title be?",
+      "type": "text",
+      "role": "listItem",
+      "reference": "listProp"
+    },
+    {
+      "name": "listCardImage",
+      "displayName": "What image field should be displayed?",
+      "type": "image",
+      "role": "listItem",
+      "reference": "listProp"
+    },
+    {
+      "name": "listCardRating",
+      "displayName": "What should the Rating show?",
+      "type": "number",
+      "role": "listItem",
+      "reference": "listProp"
+    },
+    {
+      "name": "listCardPrice",
+      "displayName": "What should the Price be?",
+      "type": "number",
+      "role": "listItem",
+      "reference": "listProp"
+    },
+    {
+      "name": "listCardTag",
+      "displayName": "What should the Tag be?",
+      "type": "text",
+      "role": "listItem",
+      "reference": "listProp"
+    },
+    {
+      "name": "listCardDescription",
+      "displayName": "What should the Description be?",
+      "type": "text",
+      "role": "listItem",
+      "reference": "listProp"
+    },
+    {
+      "name": "listCardBrandName",
+      "displayName": "What should the Brand Name be?",
+      "type": "text",
+      "role": "listItem",
+      "reference": "listProp"
+    }
+  ],
+  "childComponents": []
+}
